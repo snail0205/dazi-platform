@@ -1,27 +1,26 @@
- # ---------- IDE ----------
-  .idea/
-  *.iml
-  .vscode/
+# ---------- IDE ----------
+.idea/
+*.iml
+.vscode/
 
-  # ---------- Java / Maven ----------
-  target/
-  *.class
-  *.jar
-  *.war
+# ---------- Java / Maven ----------
+target/
+*.class*.jar
+*.war
 
-  # ---------- Node / uni-app ----------
-  node_modules/
-  dist/
-  unpackage/
+# ---------- Node / uni-app ----------
+node_modules/
+dist/
+unpackage/
 
-  # ---------- 日志 ----------
-  logs/
-  *.log
+# ---------- 日志 ----------
+logs/
+*.log
 
-  # ---------- 环境变量与密钥 ----------
-  .env
-  .env.local
+# ---------- 环境变量与密钥 ----------
+.env
+.env.local
 
-  # ---------- 系统文件 ----------
-  .DS_Store
-  Thumbs.db
+# ---------- 系统文件 ----------
+.DS_Store
+Thumbs.db
